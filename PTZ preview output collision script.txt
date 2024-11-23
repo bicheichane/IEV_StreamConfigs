@@ -1,0 +1,25 @@
+dim outputInput as string = ""
+dim previewInput as string = ""
+dim warningOverlay as string = false
+
+do while true
+
+dim xml as string = API.XML()
+   dim x as new system.xml.xmldocument
+   x.loadxml(xml)
+
+outputInput = (x.SelectSingleNode("//active").InnerText)
+previewInput = (x.SelectSingleNode("//preview").InnerText)
+warningOverlay = x.SelectSingleNode("//overlays//overlay[@number=4]").InnerText
+
+If outputInput = previewInput and warningOverlay <> "4"
+   Console.WriteLine("enabled: " & previewInput & " | " & outputInput & " | " & warningOverlay)
+   API.Function("PreviewOverlayInput4",Input:=4)
+
+Else If outputInput <> previewInput and warningOverlay = "4"
+   Console.WriteLine("disabled: " & previewInput & " | " & outputInput & " | " & warningOverlay)
+   API.Function("OverlayInput4Off")
+
+End If
+sleep(500)
+Loop
