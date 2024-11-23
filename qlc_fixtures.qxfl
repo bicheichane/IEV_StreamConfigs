@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureList>
+<FixtureList xmlns="http://www.qlcplus.org/FixtureList">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.2</Version>
+  <Author>IEV</Author>
+ </Creator>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>9 Channel</Mode>
+  <ID>0</ID>
+  <Name>12UQPRO #1</Name>
+  <Universe>0</Universe>
+  <Address>0</Address>
+  <Channels>9</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>9 Channel</Mode>
+  <ID>1</ID>
+  <Name>12UQPRO #2</Name>
+  <Universe>0</Universe>
+  <Address>9</Address>
+  <Channels>9</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>9 Channel</Mode>
+  <ID>2</ID>
+  <Name>12UQPRO #3</Name>
+  <Universe>0</Universe>
+  <Address>18</Address>
+  <Channels>9</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>9 Channel</Mode>
+  <ID>3</ID>
+  <Name>12UQPRO #4</Name>
+  <Universe>0</Universe>
+  <Address>27</Address>
+  <Channels>9</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>9 Channel</Mode>
+  <ID>4</ID>
+  <Name>12UQPRO #5</Name>
+  <Universe>0</Universe>
+  <Address>36</Address>
+  <Channels>9</Channels>
+ </Fixture>
+ <Fixture>
+  <Manufacturer>Generic</Manufacturer>
+  <Model>Generic</Model>
+  <Mode>9 Channel</Mode>
+  <ID>5</ID>
+  <Name>12UQPRO #6</Name>
+  <Universe>0</Universe>
+  <Address>45</Address>
+  <Channels>9</Channels>
+ </Fixture>
+ <FixtureGroup ID="0">
+  <Name>Pares Led</Name>
+  <Size X="3" Y="3"/>
+  <Head X="0" Y="0" Fixture="0">0</Head>
+  <Head X="1" Y="0" Fixture="1">0</Head>
+  <Head X="2" Y="0" Fixture="2">0</Head>
+  <Head X="0" Y="1" Fixture="3">0</Head>
+  <Head X="1" Y="1" Fixture="4">0</Head>
+  <Head X="2" Y="1" Fixture="5">0</Head>
+ </FixtureGroup>
+</FixtureList>
