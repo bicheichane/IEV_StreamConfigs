@@ -1,0 +1,16 @@
+{
+    "keepSettings": {
+        "type": 1,
+        "amount": 7
+    },
+    "auditFilename": "C:\\Users\\IEV\\Documents\\Repos\\IEV_StreamConfigs\\CompanionDb\\logs\\audit.json",
+    "hashType": "md5",
+    "extension": ".log",
+    "files": [
+        {
+            "date": 1732679632258,
+            "name": "C:\\Users\\IEV\\Documents\\Repos\\IEV_StreamConfigs\\CompanionDb\\logs\\companion-2024-11-27.0.log",
+            "hash": "09def665c23d01469668c62358fa6534"
+        }
+    ]
+}
